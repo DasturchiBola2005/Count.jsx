@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+    label {
+        @apply flex flex-col
+    }
+    input,
+    select {
+        @apply bg-transparent border outline-none p-2 rounded
+    }
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: rgb(22, 22, 80);
+}
